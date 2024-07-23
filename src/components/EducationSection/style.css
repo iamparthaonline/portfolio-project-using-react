@@ -1,0 +1,35 @@
+#education-section .education-list {
+  margin: 20px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#education-section .education-list .education-card {
+  padding: 16px;
+  border: 1px solid #ccc;
+  width: 400px;
+  border-radius: 10px;
+  margin: 16px 0;
+}
+
+#education-section .education-list .education-card img {
+  width: 24px;
+  height: 24px;
+}
+
+.shown {
+  font-size: 18px;
+}
+
+.controlled {
+  border-top: 1px solid #ccc;
+  padding: 16px 0;
+}
+
+.education-meta {
+  margin-bottom: 24px;
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "university": "Delhi University",
+    "course": "MTech",
+    "stream": "Computer Science",
+    "years": "2018 - 2020",
+    "location": "Bangalore",
+    "cgpa": "8"
+  },
+  {
+    "university": "VIT University",
+    "course": "BTech",
+    "stream": "Computer Science",
+    "years": "2014 - 2018",
+    "location": "Chennai",
+    "cgpa": "7.1"
+  }
+]

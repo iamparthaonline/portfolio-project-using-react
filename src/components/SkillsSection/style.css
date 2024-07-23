@@ -1,12 +1,15 @@
+#skills-section {
+  text-align: center;
+}
+
 #skills-section ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 100px 0;
 }
 
 #skills-section ul li {
   padding: 16px 24px;
-  text-align: center;
   font-size: 18px;
   border-radius: 10px;
   margin: 16px;
