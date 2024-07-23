@@ -1,5 +1,6 @@
 import AboutSection from "../../components/AboutSection";
 import BioSection from "../../components/BioSection";
+import ExperienceSection from "../../components/ExperienceSection";
 
 import "./style.css";
 const home = () => {
@@ -7,6 +8,7 @@ const home = () => {
     <div className="home-page">
       <AboutSection />
       <BioSection />
+      <ExperienceSection />
     </div>
   );
 };
