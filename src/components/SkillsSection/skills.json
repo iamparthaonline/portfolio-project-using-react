@@ -1,0 +1,38 @@
+[
+  {
+    "name": "ReactJS",
+    "color": "#D7FFF1"
+  },
+  {
+    "name": "HTML",
+    "color": "#FBFFB9"
+  },
+  {
+    "name": "CSS",
+    "color": "#EFFFE9"
+  },
+  {
+    "name": "JS",
+    "color": "#84B1ED"
+  },
+  {
+    "name": "SCSS",
+    "color": "#D8E6E7"
+  },
+  {
+    "name": "AWS",
+    "color": "#AAABD3"
+  },
+  {
+    "name": "Python",
+    "color": "#ffbbd6"
+  },
+  {
+    "name": "MongoDB",
+    "color": "#dae9f4"
+  },
+  {
+    "name": "SQL",
+    "color": "#f8ecc9"
+  }
+]
