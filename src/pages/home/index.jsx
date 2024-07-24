@@ -3,6 +3,7 @@ import BioSection from "../../components/BioSection";
 import ExperienceSection from "../../components/ExperienceSection";
 import SkillsSection from "../../components/SkillsSection";
 import EducationSection from "../../components/EducationSection";
+import ProjectsSection from "../../components/ProjectsSection";
 
 import "./style.css";
 const home = () => {
@@ -13,6 +14,7 @@ const home = () => {
       <ExperienceSection />
       <SkillsSection />
       <EducationSection />
+      <ProjectsSection />
     </div>
   );
 };
