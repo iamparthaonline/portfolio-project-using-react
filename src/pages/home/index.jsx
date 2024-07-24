@@ -4,6 +4,7 @@ import ExperienceSection from "../../components/ExperienceSection";
 import SkillsSection from "../../components/SkillsSection";
 import EducationSection from "../../components/EducationSection";
 import ProjectsSection from "../../components/ProjectsSection";
+import ContactsSection from "../../components/ContactsSection";
 
 import "./style.css";
 const home = () => {
@@ -15,6 +16,7 @@ const home = () => {
       <SkillsSection />
       <EducationSection />
       <ProjectsSection />
+      <ContactsSection />
     </div>
   );
 };

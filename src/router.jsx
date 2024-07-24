@@ -1,8 +1,10 @@
+import HomePage from "./pages/home";
+import ProjectPage from "./pages/project";
 import { createBrowserRouter } from "react-router-dom";
 
 const routes = createBrowserRouter([
-  { path: "/", element: <div> Hello </div> },
-  { path: "/morning", element: <div> Good Morning </div> },
+  { path: "/", element: <HomePage /> },
+  { path: "/project", element: <ProjectPage /> },
 ]);
 
 export default routes;

@@ -5,21 +5,23 @@ import "./style.css";
 
 const ExperienceSection = () => {
   return (
-    <div id="experience">
-      <h1>Experience</h1>
+    <div id="experience" className="section-container">
       <div>
-        {experienceData.map(
-          ({ company, designation, logo, description, years }) => (
-            <ExperienceCard
-              key={company}
-              designation={designation}
-              logo={logo}
-              description={description}
-              years={years}
-              company={company}
-            />
-          )
-        )}
+        <h1>Experience</h1>
+        <div>
+          {experienceData.map(
+            ({ company, designation, logo, description, years }) => (
+              <ExperienceCard
+                key={company}
+                designation={designation}
+                logo={logo}
+                description={description}
+                years={years}
+                company={company}
+              />
+            )
+          )}
+        </div>
       </div>
     </div>
   );

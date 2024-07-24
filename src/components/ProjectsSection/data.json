@@ -1,10 +1,12 @@
 [
   {
     "name": "Travel App",
-    "image": "travel.jpg"
+    "image": "travel.jpg",
+    "description": "In this project we have created a travel app where all the travel enthusiasts can meet from around the world"
   },
   {
     "name": "Home Automation",
-    "image": "home.jpg"
+    "image": "home.jpg",
+    "description": "This project is great for a smart home, here we have added automation capabilities to your home"
   }
 ]
