@@ -1,12 +1,10 @@
-import HomePage from "./pages/home";
 import "./App.css";
 
-function App() {
+// eslint-disable-next-line react/prop-types
+function App({ children }) {
   return (
     <>
-      <div className="main-app-container">
-        <HomePage />
-      </div>
+      <div className="main-app-container">{children}</div>
     </>
   );
 }
