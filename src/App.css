@@ -12,3 +12,7 @@ h1 {
   align-items: center;
   justify-content: space-around;
 }
+
+body {
+  scroll-behavior: smooth;
+}

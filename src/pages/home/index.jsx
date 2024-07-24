@@ -5,11 +5,13 @@ import SkillsSection from "../../components/SkillsSection";
 import EducationSection from "../../components/EducationSection";
 import ProjectsSection from "../../components/ProjectsSection";
 import ContactsSection from "../../components/ContactsSection";
+import Header from "../../components/Header";
 
 import "./style.css";
 const home = () => {
   return (
     <div className="home-page">
+      <Header />
       <AboutSection />
       <BioSection />
       <ExperienceSection />

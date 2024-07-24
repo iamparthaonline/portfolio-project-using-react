@@ -1,0 +1,12 @@
+.header-list {
+  list-style: none;
+  padding: 16px 32px;
+  background-color: #ccc;
+  border-radius: 12px;
+}
+
+.header-list li {
+  display: inline-block;
+  margin: 12px;
+  padding: 16px;
+}

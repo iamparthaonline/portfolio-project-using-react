@@ -1,4 +1,4 @@
-#bio-section {
+#bio-section > div {
   background-color: lightblue;
   padding: 100px;
   width: 80vw;

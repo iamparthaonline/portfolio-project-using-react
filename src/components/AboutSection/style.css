@@ -1,8 +1,9 @@
-#about {
+#about > div {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding: 100px 0;
+  text-align: left;
 }
 .image img {
   width: 300px;
@@ -16,6 +17,7 @@
 }
 .title h1 {
   font-size: 28px;
+  text-align: left;
 }
 .title h2 {
   font-size: 22px;
