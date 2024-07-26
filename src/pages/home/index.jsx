@@ -19,6 +19,9 @@ const home = () => {
       <EducationSection />
       <ProjectsSection />
       <ContactsSection />
+      <p>
+        <i>v.1.1.0</i>
+      </p>
     </div>
   );
 };
