@@ -1,8 +1,13 @@
+/* eslint-disable react/prop-types */
 import "./style.css";
+import queryString from "query-string";
 import projectData from "../../components/ProjectsSection/data.json";
-const ProjectPage = () => {
-  const query = new URLSearchParams(window.location.search);
-  const projectId = query.get("id");
+const ProjectPage = ({ location }) => {
+  const searchObj = queryString.parse(
+    location?.search || `?${window.location.href.split("?")[1]}`
+  );
+  const projectId = searchObj.id;
+
   const data = projectData[projectId];
 
   return (

@@ -30,8 +30,13 @@ const Header = () => {
   return (
     <ul className="header-list">
       {links.map(({ text, link }) => (
-        <li key={text}>
-          <a href={`#${link}`}>{text}</a>
+        <li
+          key={text}
+          onClick={() => {
+            document.getElementById(link).scrollIntoView();
+          }}
+        >
+          {text}
         </li>
       ))}
     </ul>

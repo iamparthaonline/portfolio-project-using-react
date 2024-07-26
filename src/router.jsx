@@ -1,10 +1,10 @@
 import HomePage from "./pages/home";
 import ProjectPage from "./pages/project";
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 
-const routes = createBrowserRouter([
+const routes = createHashRouter([
   { path: "/", element: <HomePage /> },
-  { path: "/project", element: <ProjectPage /> },
+  { path: "project", element: <ProjectPage /> },
 ]);
 
 export default routes;

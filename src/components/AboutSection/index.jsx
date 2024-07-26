@@ -5,7 +5,7 @@ const AboutSection = () => {
     <div id="about" className="section-container">
       <div>
         <div className="image">
-          <img src="/user.jpg" />
+          <img src="user.jpg" />
         </div>
         <div className="title">
           <h1>John Doe</h1>

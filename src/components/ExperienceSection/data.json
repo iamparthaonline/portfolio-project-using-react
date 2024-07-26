@@ -2,14 +2,14 @@
   {
     "designation": "SDE 1",
     "company": "Amazon",
-    "logo": "/amazon.png",
+    "logo": "amazon.png",
     "years": "2018 - 2021",
     "description": "Worked on ecommerce platform in backend"
   },
   {
     "designation": "Software Engineer",
     "company": "Facebook",
-    "logo": "/facebook.webp",
+    "logo": "facebook.webp",
     "years": "2016 - 2018",
     "description": "Worked on social media projects"
   }
