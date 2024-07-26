@@ -20,7 +20,7 @@ const home = () => {
       <ProjectsSection />
       <ContactsSection />
       <p>
-        <i>v.1.1.1</i>
+        <i>v.1.1.testing</i>
       </p>
     </div>
   );
